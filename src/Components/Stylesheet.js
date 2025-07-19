@@ -1,9 +1,10 @@
 import React from 'react'
-
-function Stylesheet(){
+import './myStyle.css'
+function Stylesheet(props){
+   let className=props.primary ?'primary' : ''
     return(
         <div>
-            <h1> Hey I have one secrete</h1>
+            <h1 className={ `${className} font` }> Hey I have one secrete</h1>
         </div>
     )
 }
