@@ -1,0 +1,49 @@
+.form-con{
+    background-image: url('../bgimage.jpg');
+}
+.div1{
+    height: 400px;
+    width: 300px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 700px;
+  border: 2px solid #b6b6b6;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  font-family: cursive;
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.2)
+  
+}
+.div1 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.div1 input,
+.div1 select {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #888;
+  font-family: cursive;
+}
+h1{
+    color:  #11da18;
+}
+
+.div1 button {
+  padding: 10px;
+  background-color: #11da18;
+  color: white;
+  border: none;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.div1 button:hover {
+  background-color: #83f98b;
+}
